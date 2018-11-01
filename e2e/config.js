@@ -1,5 +1,5 @@
 module.exports = {
-  url: 'http://localhost:4200',
+  url: 'http://127.0.0.1:4200',
   user: {
     email: 'test@gmail.com',
     password: '12345678'

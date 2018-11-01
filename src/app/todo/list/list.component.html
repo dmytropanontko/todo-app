@@ -16,7 +16,7 @@
         [dndDraggable]
         [dndDragDisabled]="isMobile"
         [dndObject]="todo">
-          <a class="todo-conteiner__title" routerLink="/todo/view/{{todo.id}}">{{todo.title}}</a>
+          <a id="todo-conteiner" class="todo-conteiner__title" routerLink="/todo/view/{{todo.id}}">{{todo.title}}</a>
           <i (click)="deleteTodo(todo.id)" class="todo-delete material-icons">delete_forever</i>
         </div>
     </div>
@@ -80,6 +80,6 @@
     </div>
   </div>
   <a routerLink="/todo/new">
-    <i class="new-todo material-icons">add_circle</i>
+    <i id="new-todo-btn" class="new-todo material-icons">add_circle</i>
   </a>
 </div>
